@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>자기소개 위키 페이지</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <script src="./js/index.js"></script>
   </head>
   <body>
     <div id="app">
@@ -16,50 +15,96 @@
         </h1>
       </header>
       <main>
-        <h2 class="title">크론</h2>
+        <h2 class="title">다로</h2>
         <hr />
         <section>
-          <h3 class="subtitle">자기소개</h3>
+          <h3 class="subtitle" id="intro">자기소개</h3>
           <p>
-            안녕하세요, 저는 끊임없이 새로운 도전을 통해 성장하는 것을 즐기는 크론이에요. 안정적인 삶에서 벗어나 세 번의
-            큰 전환점을 겪으며 지금의 제가 되었어요. 어제보다 더 나은 오늘의 나를 만들기 위해 노력하고 있죠. 매일의 작은
-            성취들이 모여 제가 한 걸음 더 성장했다는 것을 느낄 때면 가슴이 벅차오르거든요. 그러다 문득, 저처럼 변화를
-            갈망하며 도전을 꿈꾸는 분들이 많다는 것을 알게 되었어요. 나의 성장도 의미 있지만, 누군가의 성장을 함께할 수
-            있다는 건 매일 새로운 설렘을 주는 일이에요.
+            안녕하세요, 저는 어제보다 오늘 더 나아지기를 바라는 다로입니다! 저는 스스로와의 경쟁을 즐기는 사람으로
+            아주 조금이라도 좋으니 어제보다 더 성장하기를 바라며 노력하고 있습니다. <br>
+            작은 성취일지라도 그것들이 차곡차곡 쌓여 이후 성장이 체감되었을 때의 기쁨은 저를 항상 설레게 만듭니다.
+            너무나 뻔하디 뻔한 취미지만 운동 하는 거 좋아하고, 책읽는 거 좋아하고, 영화보는 거 좋아합니다!
+            취미 관련해서 추천받거나 관련 이야기 나누는 것도 좋아하니 편하게 말 걸어주세요
           </p>
         </section>
+        <section class="gallery-container" id ="my-gallery">
+          <h3 class="subtitle">나만의 갤러리</h3>  
+          <h4>부제: 요즘 꽂힌 노래</h4>
+          <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MjVfNzYg%2FMDAxNzI3MjQ1NTAwODc3.bzc-RmwJTM28AbKqpUyq8BOiKw3E3pehG5urCLH0rIYg.uS5hlBJcu7LsYM5fSyZIR8Mwo1nqYwErWmMjU1Di1dAg.PNG%2Fb.png&type=a340" alt="이미지 1"></div>
+            <div class="gallery-item"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMjdfMjM2%2FMDAxNzA5MDI3ODAzNTE4.ubeUl480IHqbJWNvEkGa5sAQUGp8Upn3vB1qxW4xcQsg.H-Eynt0oEQJFoHaw3rplOCbF04fxOvQI10KkZr2Krs8g.PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2024-02-27_%25BF%25C0%25C8%25C4_6.53.30.png&type=a340" alt="이미지 2"></div>
+              <div class="gallery-item"><img src="https://i.ytimg.com/vi/muBCVHSUNrE/sddefault.jpg" alt="이미지 3"></div>
+              <div class="gallery-item"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MTBfMTgw%2FMDAxNzE1MzAwNzY0NzI2._FVmL0WB18h8L_6YkOXr7Bz2nGDbpj8tKChR6IxvFDUg.B7cTho088pD7FTqF02L2NrVkZ6AFZACk7PjdC0X0I8Mg.JPEG%2Foutput_2547195824.jpg&type=a340" alt="이미지 4"></div>
+              <div class="gallery-item"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MDdfMTMw%2FMDAxNzI1NzExMTAyMTUx.1lSdgOj9b8tdblSOz4nsO_lx7JvkUD4GC3FPuzNfUIEg.d5ZhP1jRKqcEesNe6usd3ob0ILkIhuITRWFMwUw89p4g.PNG%2F%25B3%25D7%25C0%25CC%25B9%25F6-%25BA%25ED%25B7%25CE%25B1%25D7-%25BD%25E6%25B3%25DA-001.png&type=a340" alt="이미지 5"></div>
+              <div class="gallery-item"><img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.discogs.com%2FISmvg5hSE7ZUqutUbMaJ6yRIJkDlsxmWHYckZ0bIB8M%2Frs%3Afit%2Fg%3Asm%2Fq%3A90%2Fh%3A458%2Fw%3A600%2FczM6Ly9kaXNjb2dz%2FLWRhdGFiYXNlLWlt%2FYWdlcy9SLTU4MzIw%2FNTQtMTYwMDAyMTE2%2FMy03ODUwLmpwZWc.jpeg&type=a340" alt="이미지 6"></div>
+              <div class="gallery-item"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160312_104%2Fansel0227_145770865173449A3o_JPEG%2FR-2008941-1290193486_jpeg.jpg&type=a340" alt="이미지 7"></div>
+              <div class="gallery-item"><img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimage.bugsm.co.kr%2Falbum%2Fimages%2F500%2F40961%2F4096112.jpg&type=a340" alt="이미지 8"></div>
+              <div class="gallery-item"><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MDJfMjE0%2FMDAxNjMwNTA4Njg2OTQx.8eJvV6nfUbKUJ43j3gc78kZmKw1GLSQdKn2JOeD9uiQg.zaXcueboj55Sgfhc8nbBDLtMAgp-HSiIerUl8-4jev8g.JPEG.thsgo_see%2FKakaoTalk_20210902_000426391.jpg&type=a340" alt="이미지 9"></div>
+          </div>
+      </section>
+  
 
         <section>
-          <h3 class="subtitle">나를 울린 인생 작품</h3>
+          <h3 class="subtitle" id="recommend">인생 작품</h3>
           <article>
             <h4>인생 영화</h4>
             <div class="thumbnail">
               <img
-                src="https://image.tmdb.org/t/p/w1280/u8ffl7CRAS12KA8eQEtkLuHg8Fm.jpg"
+                src="https://www.news1.kr/_next/image?url=https%3A%2F%2Fi3n.news1.kr%2Fsystem%2Fphotos%2F2020%2F7%2F29%2F4313152%2Fhigh.jpg&w=1920&q=75"
                 width="200"
-                alt="그래비티 영화 포스터"
+                alt="메멘토토 영화 포스터"
               />
             </div>
             <p>
-              알폰소 쿠아론 감독이 연출하고 샌드라 불럭이 주연으로 출연하는 영화 「그래비티」는 우주 정거장에서 임무
-              수행 중 고립된 한 우주인의 생존과 귀환을 그린 작품이다. 대학생 시절 처음 본 이 영화는 당시엔 그저 지루한
-              우주 영화였다. 그런데 이 영화를 다시 보니, 마치 내 미래를 미리 보여준 복선과도 같다는 점을 깨달았다.
+              영화보는 것이 취미라고하긴 했는데, 그냥 아무 영화나 다 보는 것은 아니고 '명작'이라고 평가받는 작품들을 찾아보는 것을 좋아한다.
+              메멘토를 보게 된 것도 비슷한 이유였다.<br>
+              워낙 많은 사람들이 명작이라고 추천하길래 궁금해서 보게 되었는데, 난생 처음으로 '영화 자체를 정말 잘 만들었다'는 감탄이 나온 작품이었다.
+              스포일러 없이 아주 간략하게 소개하자면, 특정 시점 전의 기억은 그대로이나 이후부터는 계속 주기적으로 기억을 잃는 남자가 
+              그의 아내를 살해한 범인을 추적하는 이야기이다. 스포가 될 수 있어 더 말은 하지 않겠지만 정말 독특한 서사 구조와 연출이 돋보이는 작품이라 생각한다.<br>
+            </p>
+            <p>
+              물론 그 때문에 '어렵다'는 평도 많습니다. 저도 처음 메멘토를 보고 제대로 이해하지 못해 바로 처음부터 다시 돌려봤다. 
+              첫 번째 관람보다 두 번째 관람이 더 흥미로웠고, 아는 만큼 더 많은 것이 보이는 작품이라는 생각이 들었다.
+              추천했을 때 '재미없다'는 반응도 있긴 했지만, 개인적으로 너무 재미있게 봐서 계속 추천하고 있다. 
+              혹시 이 글을 읽고 있는 여러분도 아직 메멘토를 보지 않으셨다면 한 번 시도해보는 것은 어떨까요?
+            </p>
+          </article>
+          <br><br> 
+          <article>
+            <h4>인생 도서</h4>
+            <div class="thumbnail">
+              <img
+                src="https://bir.co.kr/wp-content/uploads/bookcover/4919013-large.jpg"
+                width="200"
+                alt="어린왕자 책 표지지"
+              />
+            </div>
+            <p>
+              많은 분들이 한 번쯤은 읽어본 책, 어린 왕자입니다. 어린 왕자는 다양한 교훈을 주는 작품이지만, 
+              무엇보다도 ‘관계’를 정말 아름답게 설명하는 책이라고 생각합니다.<br>
+              예를 들어, "네가 매일 4시에 나를 보러 온다면 나는 3시부터 기분이 좋을 거야", 
+              "네가 나를 길들인다면 이제부터 나는 황금빛 밀밭을 보며 너의 머리색을 떠올릴 거야."와 같은 유명한 문장들이 있습니다.
+              개인적으로는 어린 왕자가 자신의 별로 떠나기 전, 비행사인 주인공과 나누는 대화가 정말 수려하다고 느껴 가장 좋아하는 부분입니다.<br>
+              (이 대화 부분은 이곳에 따로 언급하지는 않으니 궁금한 분은 따로 읽어보면 좋을 것 같습니다.)
+            </p>
+            <p>
+              어릴 때 읽었을 때와 성인이 되어 다시 읽었을 때, 느낌이 달라진다고 생각합니다. 저는 어린 왕자의 다양한 교훈 중에서 '관계'라는 부분에 
+              크게 와닿았지만, 다른 분들은 각자 다른 부분에 더 깊은 인상을 받을 수도 있을 것입니다.<br>
+              혹시 어릴 때 읽고 기억이 가물가물하다면, 오랜만에 동심의 세계로 여행을 떠나보는 것도 좋지 않을까요?
             </p>
           </article>
         </section>
-
         <section>
-          <div class="comment-writing-container">
-            <form>
-              <fieldset>
-                <legend>댓글 쓰기</legend>
-                <textarea
-                  placeholder="정말 멋진 글이네요. 크루가 감동할 수 있도록 훈훈해지는 댓글 부탁 드립니다."
-                ></textarea>
-              </fieldset>
-            </form>
-          </div>
-          <ul class="comment-list">
+          <form class="comment-writing-container" id="comment-form">
+            <fieldset>
+              <legend>댓글 쓰기</legend>
+              <input type="text" id="comment-input" placeholder="댓글을 입력하세요." />
+              <button type="button" id="submit-comment">등록</button>
+              <button type="reset">취소</button>
+            </fieldset>
+          </form>
+
+          <ul class="comment-list" id="comment-list">
             <li>
               <div class="comment-item">
                 <div class="comment-author">
@@ -67,43 +112,12 @@
                   <span>방문자</span>
                 </div>
                 <div class="comment-content">
-                  대학생 때 읽었던 모모가 문득 생각나서 다시 펼쳐봤는데, 글쓴이님 말씀처럼 정말 지금 보니까 완전 다르게
-                  다가오더라구요! 회색 신사들이 들려주는 '시간 절약'이란 말이 마치 요즘 유튜브에서 흔히 보이는 '갓생
-                  살기' 영상들 같아서 씁쓸하게 웃었습니다 ㅎㅎ 광안리 해변 이야기는 정말 이 글의 하이라이트인 것 같아요.
-                  저도 이제는 가끔은 멍때리는 시간을 가져야겠어요 :&#41;
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  와... 크론이라는 닉네임의 의미를 읽고 푸지 이발사가 딱 떠올랐어요. 저도 회사에서 30분 단위로 시간
-                  쪼개서 일정 관리하다가 얼마 전에 번아웃 왔거든요 😅 시간을 아낀다고 오히려 삶을 놓치고 있었던 것
-                  같아서 마음이 찡했습니다. 글쓴이님 글 덕분에 오늘은 퇴근하고 동네 한 바퀴 돌아야겠어요~
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="comment-item">
-                <div class="comment-author">
-                  <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-                  <span>방문자</span>
-                </div>
-                <div class="comment-content">
-                  이 글 읽으면서 계속 고개를 끄덕였네요 👍 특히 자기계발서 이야기... 저도 요즘 '갓생살기' 영상 보면서
-                  조급해졌었는데, 모모 다시 읽어봐야겠어요! 시간은 아끼는 게 아니라 느끼는 거라는 말에 완전 공감입니다.
-                  저도 이제는 하루에 한 번은 커피 마시면서 창밖 구경하기로 했어요 ☕️
                 </div>
               </div>
             </li>
           </ul>
         </section>
-
-        <footer>
+          <footer>
           <img src="./images/footer-logo.png" width="180" alt="우아한테크코스 로고" />
           <p>&copy; 우아한테크코스 All Rights reserved.</p>
         </footer>
@@ -114,20 +128,21 @@
           <h2>Contents</h2>
           <ol class="contents">
             <li>
-              <a href="#">자기소개</a>
+              <a href="#intro">자기소개</a>
             </li>
             <li>
-              <a href="#">나만의 갤러리</a>
+              <a href="#my-gallery">나만의 갤러리</a>
             </li>
             <li>
-              <a href="#">나를 울린 인생 작품</a>
+              <a href="#recommend">나를 울린 인생 작품</a>
             </li>
             <li>
-              <a href="#">감상평</a>
+              <a href="#comment-form">감상평</a>
             </li>
           </ol>
         </nav>
       </aside>
     </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>
